@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47E1F9928DBB76A00D2CF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1F9828DBB76A00D2CF5D /* AppDelegate.swift */; };
+		C47E1F9B28DBB76A00D2CF5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1F9A28DBB76A00D2CF5D /* SceneDelegate.swift */; };
+		C47E1F9D28DBB76A00D2CF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1F9C28DBB76A00D2CF5D /* ViewController.swift */; };
+		C47E1FA028DBB76A00D2CF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E1F9E28DBB76A00D2CF5D /* Main.storyboard */; };
+		C47E1FA228DBB76A00D2CF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47E1FA128DBB76A00D2CF5D /* Assets.xcassets */; };
+		C47E1FA528DBB76A00D2CF5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E1FA328DBB76A00D2CF5D /* LaunchScreen.storyboard */; };
+		C47E1FB028DBB76A00D2CF5D /* fatoreFiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1FAF28DBB76A00D2CF5D /* fatoreFiboTests.swift */; };
+		C47E1FBA28DBB76A00D2CF5D /* fatoreFiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1FB928DBB76A00D2CF5D /* fatoreFiboUITests.swift */; };
+		C47E1FBC28DBB76A00D2CF5D /* fatoreFiboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1FBB28DBB76A00D2CF5D /* fatoreFiboUITestsLaunchTests.swift */; };
+		C47E1FC928DBBD5A00D2CF5D /* FatorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1FC828DBBD5A00D2CF5D /* FatorialViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C47E1FAC28DBB76A00D2CF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47E1F8D28DBB76A00D2CF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47E1F9428DBB76A00D2CF5D;
+			remoteInfo = fatoreFibo;
+		};
+		C47E1FB628DBB76A00D2CF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47E1F8D28DBB76A00D2CF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47E1F9428DBB76A00D2CF5D;
+			remoteInfo = fatoreFibo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C47E1F9528DBB76A00D2CF5D /* fatoreFibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fatoreFibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E1F9828DBB76A00D2CF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C47E1F9A28DBB76A00D2CF5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C47E1F9C28DBB76A00D2CF5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C47E1F9F28DBB76A00D2CF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C47E1FA128DBB76A00D2CF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C47E1FA428DBB76A00D2CF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C47E1FA628DBB76A00D2CF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47E1FAB28DBB76A00D2CF5D /* fatoreFiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fatoreFiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E1FAF28DBB76A00D2CF5D /* fatoreFiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fatoreFiboTests.swift; sourceTree = "<group>"; };
+		C47E1FB528DBB76A00D2CF5D /* fatoreFiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fatoreFiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E1FB928DBB76A00D2CF5D /* fatoreFiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fatoreFiboUITests.swift; sourceTree = "<group>"; };
+		C47E1FBB28DBB76A00D2CF5D /* fatoreFiboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fatoreFiboUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C47E1FC828DBBD5A00D2CF5D /* FatorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatorialViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47E1F9228DBB76A00D2CF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1FA828DBB76A00D2CF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1FB228DBB76A00D2CF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47E1F8C28DBB76A00D2CF5D = {
+			isa = PBXGroup;
+			children = (
+				C47E1F9728DBB76A00D2CF5D /* fatoreFibo */,
+				C47E1FAE28DBB76A00D2CF5D /* fatoreFiboTests */,
+				C47E1FB828DBB76A00D2CF5D /* fatoreFiboUITests */,
+				C47E1F9628DBB76A00D2CF5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47E1F9628DBB76A00D2CF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47E1F9528DBB76A00D2CF5D /* fatoreFibo.app */,
+				C47E1FAB28DBB76A00D2CF5D /* fatoreFiboTests.xctest */,
+				C47E1FB528DBB76A00D2CF5D /* fatoreFiboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47E1F9728DBB76A00D2CF5D /* fatoreFibo */ = {
+			isa = PBXGroup;
+			children = (
+				C47E1F9828DBB76A00D2CF5D /* AppDelegate.swift */,
+				C47E1F9A28DBB76A00D2CF5D /* SceneDelegate.swift */,
+				C47E1F9C28DBB76A00D2CF5D /* ViewController.swift */,
+				C47E1F9E28DBB76A00D2CF5D /* Main.storyboard */,
+				C47E1FA128DBB76A00D2CF5D /* Assets.xcassets */,
+				C47E1FA328DBB76A00D2CF5D /* LaunchScreen.storyboard */,
+				C47E1FA628DBB76A00D2CF5D /* Info.plist */,
+				C47E1FC828DBBD5A00D2CF5D /* FatorialViewController.swift */,
+			);
+			path = fatoreFibo;
+			sourceTree = "<group>";
+		};
+		C47E1FAE28DBB76A00D2CF5D /* fatoreFiboTests */ = {
+			isa = PBXGroup;
+			children = (
+				C47E1FAF28DBB76A00D2CF5D /* fatoreFiboTests.swift */,
+			);
+			path = fatoreFiboTests;
+			sourceTree = "<group>";
+		};
+		C47E1FB828DBB76A00D2CF5D /* fatoreFiboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C47E1FB928DBB76A00D2CF5D /* fatoreFiboUITests.swift */,
+				C47E1FBB28DBB76A00D2CF5D /* fatoreFiboUITestsLaunchTests.swift */,
+			);
+			path = fatoreFiboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47E1F9428DBB76A00D2CF5D /* fatoreFibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E1FBF28DBB76A00D2CF5D /* Build configuration list for PBXNativeTarget "fatoreFibo" */;
+			buildPhases = (
+				C47E1F9128DBB76A00D2CF5D /* Sources */,
+				C47E1F9228DBB76A00D2CF5D /* Frameworks */,
+				C47E1F9328DBB76A00D2CF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fatoreFibo;
+			productName = fatoreFibo;
+			productReference = C47E1F9528DBB76A00D2CF5D /* fatoreFibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C47E1FAA28DBB76A00D2CF5D /* fatoreFiboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E1FC228DBB76A00D2CF5D /* Build configuration list for PBXNativeTarget "fatoreFiboTests" */;
+			buildPhases = (
+				C47E1FA728DBB76A00D2CF5D /* Sources */,
+				C47E1FA828DBB76A00D2CF5D /* Frameworks */,
+				C47E1FA928DBB76A00D2CF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47E1FAD28DBB76A00D2CF5D /* PBXTargetDependency */,
+			);
+			name = fatoreFiboTests;
+			productName = fatoreFiboTests;
+			productReference = C47E1FAB28DBB76A00D2CF5D /* fatoreFiboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C47E1FB428DBB76A00D2CF5D /* fatoreFiboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E1FC528DBB76A00D2CF5D /* Build configuration list for PBXNativeTarget "fatoreFiboUITests" */;
+			buildPhases = (
+				C47E1FB128DBB76A00D2CF5D /* Sources */,
+				C47E1FB228DBB76A00D2CF5D /* Frameworks */,
+				C47E1FB328DBB76A00D2CF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47E1FB728DBB76A00D2CF5D /* PBXTargetDependency */,
+			);
+			name = fatoreFiboUITests;
+			productName = fatoreFiboUITests;
+			productReference = C47E1FB528DBB76A00D2CF5D /* fatoreFiboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47E1F8D28DBB76A00D2CF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C47E1F9428DBB76A00D2CF5D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C47E1FAA28DBB76A00D2CF5D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C47E1F9428DBB76A00D2CF5D;
+					};
+					C47E1FB428DBB76A00D2CF5D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C47E1F9428DBB76A00D2CF5D;
+					};
+				};
+			};
+			buildConfigurationList = C47E1F9028DBB76A00D2CF5D /* Build configuration list for PBXProject "fatoreFibo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C47E1F8C28DBB76A00D2CF5D;
+			productRefGroup = C47E1F9628DBB76A00D2CF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47E1F9428DBB76A00D2CF5D /* fatoreFibo */,
+				C47E1FAA28DBB76A00D2CF5D /* fatoreFiboTests */,
+				C47E1FB428DBB76A00D2CF5D /* fatoreFiboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47E1F9328DBB76A00D2CF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E1FA528DBB76A00D2CF5D /* LaunchScreen.storyboard in Resources */,
+				C47E1FA228DBB76A00D2CF5D /* Assets.xcassets in Resources */,
+				C47E1FA028DBB76A00D2CF5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1FA928DBB76A00D2CF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1FB328DBB76A00D2CF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47E1F9128DBB76A00D2CF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E1FC928DBBD5A00D2CF5D /* FatorialViewController.swift in Sources */,
+				C47E1F9D28DBB76A00D2CF5D /* ViewController.swift in Sources */,
+				C47E1F9928DBB76A00D2CF5D /* AppDelegate.swift in Sources */,
+				C47E1F9B28DBB76A00D2CF5D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1FA728DBB76A00D2CF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E1FB028DBB76A00D2CF5D /* fatoreFiboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1FB128DBB76A00D2CF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E1FBA28DBB76A00D2CF5D /* fatoreFiboUITests.swift in Sources */,
+				C47E1FBC28DBB76A00D2CF5D /* fatoreFiboUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C47E1FAD28DBB76A00D2CF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47E1F9428DBB76A00D2CF5D /* fatoreFibo */;
+			targetProxy = C47E1FAC28DBB76A00D2CF5D /* PBXContainerItemProxy */;
+		};
+		C47E1FB728DBB76A00D2CF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47E1F9428DBB76A00D2CF5D /* fatoreFibo */;
+			targetProxy = C47E1FB628DBB76A00D2CF5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C47E1F9E28DBB76A00D2CF5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E1F9F28DBB76A00D2CF5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C47E1FA328DBB76A00D2CF5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E1FA428DBB76A00D2CF5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C47E1FBD28DBB76A00D2CF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C47E1FBE28DBB76A00D2CF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47E1FC028DBB76A00D2CF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fatoreFibo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.fatoreFibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C47E1FC128DBB76A00D2CF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fatoreFibo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.fatoreFibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C47E1FC328DBB76A00D2CF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.fatoreFiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fatoreFibo.app/fatoreFibo";
+			};
+			name = Debug;
+		};
+		C47E1FC428DBB76A00D2CF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.fatoreFiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fatoreFibo.app/fatoreFibo";
+			};
+			name = Release;
+		};
+		C47E1FC628DBB76A00D2CF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.fatoreFiboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fatoreFibo;
+			};
+			name = Debug;
+		};
+		C47E1FC728DBB76A00D2CF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.fatoreFiboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fatoreFibo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47E1F9028DBB76A00D2CF5D /* Build configuration list for PBXProject "fatoreFibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E1FBD28DBB76A00D2CF5D /* Debug */,
+				C47E1FBE28DBB76A00D2CF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E1FBF28DBB76A00D2CF5D /* Build configuration list for PBXNativeTarget "fatoreFibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E1FC028DBB76A00D2CF5D /* Debug */,
+				C47E1FC128DBB76A00D2CF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E1FC228DBB76A00D2CF5D /* Build configuration list for PBXNativeTarget "fatoreFiboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E1FC328DBB76A00D2CF5D /* Debug */,
+				C47E1FC428DBB76A00D2CF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E1FC528DBB76A00D2CF5D /* Build configuration list for PBXNativeTarget "fatoreFiboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E1FC628DBB76A00D2CF5D /* Debug */,
+				C47E1FC728DBB76A00D2CF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47E1F8D28DBB76A00D2CF5D /* Project object */;
+}

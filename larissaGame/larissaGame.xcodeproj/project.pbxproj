@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47E1F5D28DBB6FD00D2CF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1F5C28DBB6FD00D2CF5D /* AppDelegate.swift */; };
+		C47E1F5F28DBB6FD00D2CF5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1F5E28DBB6FD00D2CF5D /* SceneDelegate.swift */; };
+		C47E1F6128DBB6FD00D2CF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1F6028DBB6FD00D2CF5D /* ViewController.swift */; };
+		C47E1F6428DBB6FD00D2CF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E1F6228DBB6FD00D2CF5D /* Main.storyboard */; };
+		C47E1F6628DBB6FE00D2CF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47E1F6528DBB6FE00D2CF5D /* Assets.xcassets */; };
+		C47E1F6928DBB6FE00D2CF5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E1F6728DBB6FE00D2CF5D /* LaunchScreen.storyboard */; };
+		C47E1F7428DBB6FE00D2CF5D /* larissaGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1F7328DBB6FE00D2CF5D /* larissaGameTests.swift */; };
+		C47E1F7E28DBB6FE00D2CF5D /* larissaGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1F7D28DBB6FE00D2CF5D /* larissaGameUITests.swift */; };
+		C47E1F8028DBB6FE00D2CF5D /* larissaGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E1F7F28DBB6FE00D2CF5D /* larissaGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C47E1F7028DBB6FE00D2CF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47E1F5128DBB6FD00D2CF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47E1F5828DBB6FD00D2CF5D;
+			remoteInfo = larissaGame;
+		};
+		C47E1F7A28DBB6FE00D2CF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47E1F5128DBB6FD00D2CF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47E1F5828DBB6FD00D2CF5D;
+			remoteInfo = larissaGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C47E1F5928DBB6FD00D2CF5D /* larissaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = larissaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E1F5C28DBB6FD00D2CF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C47E1F5E28DBB6FD00D2CF5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C47E1F6028DBB6FD00D2CF5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C47E1F6328DBB6FD00D2CF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C47E1F6528DBB6FE00D2CF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C47E1F6828DBB6FE00D2CF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C47E1F6A28DBB6FE00D2CF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47E1F6F28DBB6FE00D2CF5D /* larissaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = larissaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E1F7328DBB6FE00D2CF5D /* larissaGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = larissaGameTests.swift; sourceTree = "<group>"; };
+		C47E1F7928DBB6FE00D2CF5D /* larissaGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = larissaGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E1F7D28DBB6FE00D2CF5D /* larissaGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = larissaGameUITests.swift; sourceTree = "<group>"; };
+		C47E1F7F28DBB6FE00D2CF5D /* larissaGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = larissaGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47E1F5628DBB6FD00D2CF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1F6C28DBB6FE00D2CF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1F7628DBB6FE00D2CF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47E1F5028DBB6FD00D2CF5D = {
+			isa = PBXGroup;
+			children = (
+				C47E1F5B28DBB6FD00D2CF5D /* larissaGame */,
+				C47E1F7228DBB6FE00D2CF5D /* larissaGameTests */,
+				C47E1F7C28DBB6FE00D2CF5D /* larissaGameUITests */,
+				C47E1F5A28DBB6FD00D2CF5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47E1F5A28DBB6FD00D2CF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47E1F5928DBB6FD00D2CF5D /* larissaGame.app */,
+				C47E1F6F28DBB6FE00D2CF5D /* larissaGameTests.xctest */,
+				C47E1F7928DBB6FE00D2CF5D /* larissaGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47E1F5B28DBB6FD00D2CF5D /* larissaGame */ = {
+			isa = PBXGroup;
+			children = (
+				C47E1F5C28DBB6FD00D2CF5D /* AppDelegate.swift */,
+				C47E1F5E28DBB6FD00D2CF5D /* SceneDelegate.swift */,
+				C47E1F6028DBB6FD00D2CF5D /* ViewController.swift */,
+				C47E1F6228DBB6FD00D2CF5D /* Main.storyboard */,
+				C47E1F6528DBB6FE00D2CF5D /* Assets.xcassets */,
+				C47E1F6728DBB6FE00D2CF5D /* LaunchScreen.storyboard */,
+				C47E1F6A28DBB6FE00D2CF5D /* Info.plist */,
+			);
+			path = larissaGame;
+			sourceTree = "<group>";
+		};
+		C47E1F7228DBB6FE00D2CF5D /* larissaGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C47E1F7328DBB6FE00D2CF5D /* larissaGameTests.swift */,
+			);
+			path = larissaGameTests;
+			sourceTree = "<group>";
+		};
+		C47E1F7C28DBB6FE00D2CF5D /* larissaGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C47E1F7D28DBB6FE00D2CF5D /* larissaGameUITests.swift */,
+				C47E1F7F28DBB6FE00D2CF5D /* larissaGameUITestsLaunchTests.swift */,
+			);
+			path = larissaGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47E1F5828DBB6FD00D2CF5D /* larissaGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E1F8328DBB6FF00D2CF5D /* Build configuration list for PBXNativeTarget "larissaGame" */;
+			buildPhases = (
+				C47E1F5528DBB6FD00D2CF5D /* Sources */,
+				C47E1F5628DBB6FD00D2CF5D /* Frameworks */,
+				C47E1F5728DBB6FD00D2CF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = larissaGame;
+			productName = larissaGame;
+			productReference = C47E1F5928DBB6FD00D2CF5D /* larissaGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C47E1F6E28DBB6FE00D2CF5D /* larissaGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E1F8628DBB6FF00D2CF5D /* Build configuration list for PBXNativeTarget "larissaGameTests" */;
+			buildPhases = (
+				C47E1F6B28DBB6FE00D2CF5D /* Sources */,
+				C47E1F6C28DBB6FE00D2CF5D /* Frameworks */,
+				C47E1F6D28DBB6FE00D2CF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47E1F7128DBB6FE00D2CF5D /* PBXTargetDependency */,
+			);
+			name = larissaGameTests;
+			productName = larissaGameTests;
+			productReference = C47E1F6F28DBB6FE00D2CF5D /* larissaGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C47E1F7828DBB6FE00D2CF5D /* larissaGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E1F8928DBB6FF00D2CF5D /* Build configuration list for PBXNativeTarget "larissaGameUITests" */;
+			buildPhases = (
+				C47E1F7528DBB6FE00D2CF5D /* Sources */,
+				C47E1F7628DBB6FE00D2CF5D /* Frameworks */,
+				C47E1F7728DBB6FE00D2CF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47E1F7B28DBB6FE00D2CF5D /* PBXTargetDependency */,
+			);
+			name = larissaGameUITests;
+			productName = larissaGameUITests;
+			productReference = C47E1F7928DBB6FE00D2CF5D /* larissaGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47E1F5128DBB6FD00D2CF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C47E1F5828DBB6FD00D2CF5D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C47E1F6E28DBB6FE00D2CF5D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C47E1F5828DBB6FD00D2CF5D;
+					};
+					C47E1F7828DBB6FE00D2CF5D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C47E1F5828DBB6FD00D2CF5D;
+					};
+				};
+			};
+			buildConfigurationList = C47E1F5428DBB6FD00D2CF5D /* Build configuration list for PBXProject "larissaGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C47E1F5028DBB6FD00D2CF5D;
+			productRefGroup = C47E1F5A28DBB6FD00D2CF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47E1F5828DBB6FD00D2CF5D /* larissaGame */,
+				C47E1F6E28DBB6FE00D2CF5D /* larissaGameTests */,
+				C47E1F7828DBB6FE00D2CF5D /* larissaGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47E1F5728DBB6FD00D2CF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E1F6928DBB6FE00D2CF5D /* LaunchScreen.storyboard in Resources */,
+				C47E1F6628DBB6FE00D2CF5D /* Assets.xcassets in Resources */,
+				C47E1F6428DBB6FD00D2CF5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1F6D28DBB6FE00D2CF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1F7728DBB6FE00D2CF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47E1F5528DBB6FD00D2CF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E1F6128DBB6FD00D2CF5D /* ViewController.swift in Sources */,
+				C47E1F5D28DBB6FD00D2CF5D /* AppDelegate.swift in Sources */,
+				C47E1F5F28DBB6FD00D2CF5D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1F6B28DBB6FE00D2CF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E1F7428DBB6FE00D2CF5D /* larissaGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E1F7528DBB6FE00D2CF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E1F8028DBB6FE00D2CF5D /* larissaGameUITestsLaunchTests.swift in Sources */,
+				C47E1F7E28DBB6FE00D2CF5D /* larissaGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C47E1F7128DBB6FE00D2CF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47E1F5828DBB6FD00D2CF5D /* larissaGame */;
+			targetProxy = C47E1F7028DBB6FE00D2CF5D /* PBXContainerItemProxy */;
+		};
+		C47E1F7B28DBB6FE00D2CF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47E1F5828DBB6FD00D2CF5D /* larissaGame */;
+			targetProxy = C47E1F7A28DBB6FE00D2CF5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C47E1F6228DBB6FD00D2CF5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E1F6328DBB6FD00D2CF5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C47E1F6728DBB6FE00D2CF5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E1F6828DBB6FE00D2CF5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C47E1F8128DBB6FF00D2CF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C47E1F8228DBB6FF00D2CF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47E1F8428DBB6FF00D2CF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = larissaGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.larissaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C47E1F8528DBB6FF00D2CF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = larissaGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.larissaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C47E1F8728DBB6FF00D2CF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.larissaGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/larissaGame.app/larissaGame";
+			};
+			name = Debug;
+		};
+		C47E1F8828DBB6FF00D2CF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.larissaGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/larissaGame.app/larissaGame";
+			};
+			name = Release;
+		};
+		C47E1F8A28DBB6FF00D2CF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.larissaGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = larissaGame;
+			};
+			name = Debug;
+		};
+		C47E1F8B28DBB6FF00D2CF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larissa.larissaGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = larissaGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47E1F5428DBB6FD00D2CF5D /* Build configuration list for PBXProject "larissaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E1F8128DBB6FF00D2CF5D /* Debug */,
+				C47E1F8228DBB6FF00D2CF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E1F8328DBB6FF00D2CF5D /* Build configuration list for PBXNativeTarget "larissaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E1F8428DBB6FF00D2CF5D /* Debug */,
+				C47E1F8528DBB6FF00D2CF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E1F8628DBB6FF00D2CF5D /* Build configuration list for PBXNativeTarget "larissaGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E1F8728DBB6FF00D2CF5D /* Debug */,
+				C47E1F8828DBB6FF00D2CF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E1F8928DBB6FF00D2CF5D /* Build configuration list for PBXNativeTarget "larissaGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E1F8A28DBB6FF00D2CF5D /* Debug */,
+				C47E1F8B28DBB6FF00D2CF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47E1F5128DBB6FD00D2CF5D /* Project object */;
+}
